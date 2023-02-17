@@ -15,5 +15,5 @@ static void main(String[] args) {
 	caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "iOS")
 	caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest")
 	caps.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 7")*/
-	WebDriver driver = new AndroidDriver(new URL(""), caps)
+	WebDriver driver = new AndroidDriver(new URL("https://127.0.0.1:xxxx/wd/hub"), caps)
 }
